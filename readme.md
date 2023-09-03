@@ -28,11 +28,11 @@ Functions to include:
 ### Cluster Controller
 A class containing procedures that monitor and manage cluster nodes. 
 Properties to include:
-* Initialize
 * Nodes
 * Failure log
 
 Functions to include:
+* Initialize cluster
 * Add/remove node
 * Check node status
 * Recover node
@@ -46,6 +46,7 @@ Properties to include:
 * Runtime (in seconds)
 Functions to include:
 * Initialize
+* Reset/restart
 
 Functions to include:
 * Get/set properties
@@ -56,11 +57,12 @@ Functions to include:
 
 ### Node failure
 A class that stores information about each node failure.
-Properties include:
+Properties:
 * Node
 * Time of failure
 * Recovered at
 * Downtime
 
-Functions include:
+Functions:
+* Initialize
 * Get/set properties
